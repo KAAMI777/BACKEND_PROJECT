@@ -1,0 +1,43 @@
+# --- FastAPI Core ---
+fastapi
+uvicorn[standard]
+
+# --- Database ---
+sqlalchemy
+psycopg2-binary        # PostgreSQL adapter
+alembic                # For migrations
+
+# --- Authentication ---
+python-jose[cryptography]  # JWT tokens
+passlib[bcrypt]            # Password hashing
+python-multipart           # Form/image uploads
+
+# --- Environment & Config ---
+python-dotenv
+
+# --- Image Processing ---
+opencv-python
+Pillow
+
+# --- Face & Gesture Detection ---
+face_recognition
+dlib                      # Make sure you have CMake & compilers
+mediapipe                 # Optional: For hand landmarks
+
+# --- Color Detection & ML Tools ---
+scikit-learn              # For KMeans clustering
+numpy
+matplotlib                # For debugging or visualizing
+
+# --- Utilities ---
+requests
+
+# --- Testing (optional) ---
+pytest
+httpx
+
+
+
+
+
+
